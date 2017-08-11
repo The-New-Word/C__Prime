@@ -39,7 +39,7 @@ int main() {
     */
 
     //--------------------------------
-/*
+/*]
     typedef double wages;//关键字typedef可以为类型起别名,此处,wages等价于double
     wages a = 4.2;
     cout << a << endl;
