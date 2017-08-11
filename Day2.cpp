@@ -77,7 +77,7 @@ int main() {
     cout << j2 << endl;
     cout << k2 << endl;*/
 
-    //------------------------
+    //-------------------------
 
     const int ci = 0, &cj = ci;
     int c = 0;
