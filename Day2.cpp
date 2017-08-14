@@ -7,7 +7,7 @@ using namespace std;
 int j = 0;
 constexpr int i = 42;
 
-int main() {
+int Day2() {
     /* int ival = 1024;
      int *p = &ival;
      int **ppi = &p;
