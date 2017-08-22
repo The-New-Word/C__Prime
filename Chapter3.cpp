@@ -100,7 +100,7 @@ int get() {
     return 1;
 }
 
-int main() {
+int day3() {
     int t[get()];
     size_t index = 0;//数组下标一般定义为size_t类型
     int a[] = {4, 8, 9};
