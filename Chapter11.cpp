@@ -36,7 +36,7 @@ void C11_Test1() {
     }
 }
 
-map<string, string> build_map(ifstream &map_file) {
+map<string, string> buildMap(ifstream &map_file) {
     map<string, string> trans_map;
     string key;
     string value;
@@ -72,7 +72,7 @@ const string &transform(const string &s, const map<string, string> &map) {
 }
 
 void word_tramsform(ifstream &map_file, ifstream &input) {
-      auto trans_map = build_map(map_file);
+      auto trans_map = buildMap(map_file);
       string text;
       while (getline(input, text)) {
           istringstream stream(text);
@@ -91,7 +91,7 @@ void word_tramsform(ifstream &map_file, ifstream &input) {
 
 }
 
-int main() {
+int ch11() {
     ifstream map_file("map.txt");
     ifstream in("in.txt");
     word_tramsform(map_file, in);
